@@ -18,6 +18,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Prescription"
+            android:label="@string/title_activity_prescription"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AlarmReceiver"
+            android:label="@string/title_activity_alarm_receiver"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
