@@ -78,7 +78,8 @@
                 android:layout_column="2"
                 android:background="@android:color/transparent"
                 android:drawableTop="@drawable/clc"
-                android:layout_marginLeft="15dp" />
+                android:layout_marginLeft="15dp"
+                android:onClick="setAlarm" />
 
             <TextView
                 android:layout_width="wrap_content"

@@ -9,7 +9,31 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.surinder.pha.AlarmReceiver"
+    tools:context=".AlarmActivity"
     tools:showIn="@layout/activity_alarm_receiver">
 
+    <TimePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timePicker"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton"
+        android:layout_below="@+id/timePicker"
+        android:layout_centerHorizontal="true"
+        android:onClick="onToggleClicked" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/textView"
+        android:layout_below="@+id/toggleButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
