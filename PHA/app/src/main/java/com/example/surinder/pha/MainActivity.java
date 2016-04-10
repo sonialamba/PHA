@@ -46,7 +46,12 @@ public class MainActivity extends AppCompatActivity {
         overridePendingTransition(R.anim.push_down_in,R.anim.push_down_out);
         startActivity(intent);
     }
-
+    public void searchNearby(View view)
+    {
+        Intent intent = new Intent(MainActivity.this, Nearby.class);
+        overridePendingTransition(R.anim.push_down_in,R.anim.push_down_out);
+        startActivity(intent);
+    }
     public void setAlarm(View view)
     {
         Intent intent = new Intent(MainActivity.this, AlarmActivity.class);

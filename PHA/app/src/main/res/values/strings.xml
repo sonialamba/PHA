@@ -9,4 +9,11 @@
     <string name="btn3_text">Search Nearby</string>
     <string name="btn4_text">Set Reminders</string>
     <string name="title_activity_alarm_receiver">AlarmReceiver</string>
+    <string name="title_activity_nearby">Nearby</string>
+    <string name="label_btn_find">Find</string>
+    <string name="title_activity_google_places_read_task">GooglePlacesReadTask</string>
+    <string name="title_activity_places_display_task">PlacesDisplayTask</string>
+    <string name="title_activity_places">Places</string>
+    <string name="title_activity_http">Http</string>
+    <string name="title_activity_nearby1">Nearby1</string>
 </resources>

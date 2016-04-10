@@ -18,7 +18,8 @@
         android:id="@+id/timePicker"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:paddingTop="2dp" />
 
     <ToggleButton
         android:layout_width="wrap_content"
@@ -27,7 +28,8 @@
         android:id="@+id/toggleButton"
         android:layout_below="@+id/timePicker"
         android:layout_centerHorizontal="true"
-        android:onClick="onToggleClicked" />
+        android:onClick="onToggleClicked"
+        android:paddingTop="5dp" />
 
     <TextView
         android:layout_width="fill_parent"
